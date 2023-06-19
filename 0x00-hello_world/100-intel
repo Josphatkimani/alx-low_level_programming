@@ -1,2 +1,2 @@
 #!/bin/bash
-$ CFILE="main.c" ./generate_asm.sh
+gcc -S masm=intel $CFILE
